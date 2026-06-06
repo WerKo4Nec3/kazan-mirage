@@ -4,6 +4,7 @@
     "name": "Казанский кремль",
     "lat": 55.799170,
     "lng": 49.105560,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Gate_to_the_Kazan_Kremlin.jpg/960px-Gate_to_the_Kazan_Kremlin.jpg",
     "shortDescription": "Белокаменная крепость в сердце Казани, объект ЮНЕСКО.",
     "eras": {
       "khanate": {
@@ -29,6 +30,7 @@
     "name": "Улица Баумана",
     "lat": 55.795464,
     "lng": 49.108049,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Bauman_street%2C_Kazan_%282020-11-10%29.jpg/960px-Bauman_street%2C_Kazan_%282020-11-10%29.jpg",
     "shortDescription": "Главный пешеходный бульвар Казани — живая гостиная города.",
     "eras": {
       "khanate": {
@@ -54,6 +56,7 @@
     "name": "Дворец земледельцев",
     "lat": 55.800600,
     "lng": 49.112200,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Agriculturers_palace.jpg/960px-Agriculturers_palace.jpg",
     "shortDescription": "Неоготический дворец с монументальным бронзовым деревом на набережной.",
     "eras": {
       "modern": {
@@ -67,6 +70,7 @@
     "name": "Центр семьи «Казан»",
     "lat": 55.812637,
     "lng": 49.107857,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Family_Center_Kazan.jpg/960px-Family_Center_Kazan.jpg",
     "shortDescription": "Легендарная «Чаша» — самое неожиданное здание Казани у реки Казанки.",
     "eras": {
       "modern": {
@@ -80,6 +84,7 @@
     "name": "Озеро Кабан",
     "lat": 55.776593,
     "lng": 49.123581,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Embankment_of_Lower_Kaban_lake1.jpg/960px-Embankment_of_Lower_Kaban_lake1.jpg",
     "shortDescription": "Древнее озеро в сердце старотатарской слободы.",
     "eras": {
       "khanate": {

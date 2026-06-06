@@ -38,7 +38,6 @@ export default function PanoramaFullscreen({
   onEraChange,
   onClose,
 }: Props) {
-  const [infoOpen, setInfoOpen] = useState(false);
   const [mounted, setMounted] = useState(false);
 
   const era     = eras.find((e) => e.id === selectedEraId)!;
@@ -51,13 +50,8 @@ export default function PanoramaFullscreen({
 
   // Close on Escape
   const handleKey = useCallback(
-    (e: KeyboardEvent) => {
-      if (e.key === "Escape") {
-        if (infoOpen) setInfoOpen(false);
-        else onClose();
-      }
-    },
-    [infoOpen, onClose]
+    (e: KeyboardEvent) => { if (e.key === "Escape") onClose(); },
+    [onClose]
   );
   useEffect(() => {
     window.addEventListener("keydown", handleKey);
@@ -102,24 +96,6 @@ export default function PanoramaFullscreen({
           </p>
         </div>
 
-        {/* Info toggle */}
-        <button
-          onClick={() => setInfoOpen((v) => !v)}
-          className={[
-            "pointer-events-auto flex items-center gap-1.5 rounded border px-3 py-1.5 text-sm",
-            "backdrop-blur-sm transition",
-            infoOpen
-              ? "bg-gold/20 border-gold/60 text-gold"
-              : "bg-black/60 border-white/20 text-parchment/70 hover:bg-black/80 hover:text-parchment",
-          ].join(" ")}
-        >
-          <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
-            <circle cx="7" cy="7" r="6" stroke="currentColor" strokeWidth="1.4"/>
-            <path d="M 7,6 L 7,10" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round"/>
-            <circle cx="7" cy="4" r="0.8" fill="currentColor"/>
-          </svg>
-          <span>{infoOpen ? "Hide" : "Info"}</span>
-        </button>
       </div>
 
       {/* ══════════════════════════════════════════════════
@@ -153,80 +129,6 @@ export default function PanoramaFullscreen({
           </span>
         </div>
 
-        {/* ── INFO PANEL — slides in from right ── */}
-        <div
-          className="absolute top-0 right-0 bottom-0 w-80 flex flex-col
-                     bg-panel-bg/96 border-l border-panel-border overflow-y-auto"
-          style={{
-            transform: infoOpen ? "translateX(0)" : "translateX(100%)",
-            transition: "transform 280ms ease",
-          }}
-        >
-          {/* Panel header */}
-          <div className="px-5 pt-12 pb-4 border-b border-panel-border">
-            <div className="flex items-center gap-2 mb-1">
-              <span className="w-2 h-2 rounded-full bg-gold flex-shrink-0" />
-              <h2 className="text-gold text-sm font-semibold">{era.label}</h2>
-            </div>
-            <p className="text-parchment/40 text-xs">{era.years}</p>
-            <h3 className="text-parchment text-base font-medium mt-3">{place.name}</h3>
-            <p className="text-parchment/50 text-xs mt-0.5">{place.shortDescription}</p>
-          </div>
-
-          {/* Era description */}
-          <div className="px-5 py-4 flex-1">
-            {eraData ? (
-              <p className="text-parchment/80 text-sm leading-relaxed">
-                {eraData.description}
-              </p>
-            ) : (
-              <p className="text-parchment/30 text-sm italic">
-                No historical record for this location in this era.
-              </p>
-            )}
-
-            {/* General era context */}
-            <div className="mt-5 pt-4 border-t border-panel-border">
-              <p className="text-parchment/40 text-[10px] uppercase tracking-widest mb-2">
-                About this era
-              </p>
-              <p className="text-parchment/50 text-xs leading-relaxed">{era.description}</p>
-            </div>
-          </div>
-
-          {/* Era picker inside panel */}
-          <div className="px-5 pb-5 border-t border-panel-border pt-4">
-            <p className="text-parchment/30 text-[10px] uppercase tracking-widest mb-2">
-              Switch era
-            </p>
-            <div className="flex flex-col gap-1.5">
-              {eras.map((e) => {
-                const active   = e.id === selectedEraId;
-                const hasData  = !!place.eras[e.id];
-                return (
-                  <button
-                    key={e.id}
-                    onClick={() => hasData && onEraChange(e.id)}
-                    disabled={!hasData}
-                    className={[
-                      "flex items-center gap-2 rounded px-3 py-2 text-left text-xs",
-                      "border transition-all",
-                      active
-                        ? "bg-gold/15 border-gold/50 text-gold"
-                        : hasData
-                        ? "border-panel-border text-parchment/55 hover:border-gold/30 hover:text-parchment"
-                        : "border-panel-border text-parchment/20 cursor-not-allowed",
-                    ].join(" ")}
-                  >
-                    {active && <span className="w-1.5 h-1.5 rounded-full bg-gold flex-shrink-0" />}
-                    <span className="font-medium">{e.label}</span>
-                    <span className="ml-auto text-[10px] opacity-60">{e.years}</span>
-                  </button>
-                );
-              })}
-            </div>
-          </div>
-        </div>
       </div>
 
       {/* ══════════════════════════════════════════════════

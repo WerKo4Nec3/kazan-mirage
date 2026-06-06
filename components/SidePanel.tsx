@@ -6,9 +6,7 @@ import type { Era, Place } from "@/types";
 interface Props {
   place: Place;
   era: Era;
-  eras: Era[];
   selectedEraId: string;
-  onEraChange: (id: string) => void;
   onClose: () => void;
   onViewPanorama: () => void;
 }
@@ -16,9 +14,7 @@ interface Props {
 export default function SidePanel({
   place,
   era,
-  eras,
   selectedEraId,
-  onEraChange,
   onClose,
   onViewPanorama,
 }: Props) {
@@ -65,57 +61,65 @@ export default function SidePanel({
         ].join(" ")}
         style={{ transform: "translateX(100%)" }}
       >
-        {/* ── Header ── */}
-        <div className="px-5 pt-5 pb-4 border-b border-panel-border flex items-start justify-between gap-3 flex-shrink-0">
-          <div className="min-w-0">
-            <h2 className="text-parchment font-semibold text-xl leading-tight truncate">
-              {place.name}
-            </h2>
-            <p className="text-parchment/45 text-xs mt-1 leading-relaxed">
-              {place.shortDescription}
-            </p>
+        {/* ── Cover image ── */}
+        {place.coverImage && (
+          <div className="relative h-44 flex-shrink-0 overflow-hidden bg-panel-bg/60">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={place.coverImage}
+              alt={place.name}
+              className="w-full h-full object-cover opacity-90"
+              onError={(e) => {
+                const el = e.currentTarget as HTMLImageElement;
+                el.style.display = 'none';
+                const parent = el.closest('.relative') as HTMLElement | null;
+                if (parent) parent.style.display = 'none';
+              }}
+            />
+            {/* gradient overlay + close button */}
+            <div className="absolute inset-0 bg-gradient-to-t from-panel-bg via-transparent to-transparent" />
+            <button
+              onClick={onClose}
+              aria-label="Закрыть"
+              className="absolute top-2.5 right-2.5 w-7 h-7 flex items-center justify-center rounded-full
+                         bg-black/50 text-parchment/70 hover:text-parchment hover:bg-black/80
+                         transition-colors text-sm backdrop-blur-sm"
+            >
+              ✕
+            </button>
+            {/* Place name over image */}
+            <div className="absolute bottom-0 left-0 right-0 px-5 pb-3">
+              <h2 className="text-parchment font-semibold text-xl leading-tight drop-shadow-lg">
+                {place.name}
+              </h2>
+              <p className="text-parchment/60 text-xs mt-0.5 drop-shadow">
+                {place.shortDescription}
+              </p>
+            </div>
           </div>
-          <button
-            onClick={onClose}
-            aria-label="Закрыть"
-            className="flex-shrink-0 mt-0.5 w-7 h-7 flex items-center justify-center rounded-full
-                       text-parchment/40 hover:text-parchment hover:bg-white/10 transition-colors text-lg"
-          >
-            ✕
-          </button>
-        </div>
+        )}
 
-        {/* ── Era switcher ── */}
-        <div className="px-5 py-3 border-b border-panel-border flex-shrink-0">
-          <p className="text-parchment/35 text-[10px] uppercase tracking-widest mb-2">
-            Исторический период
-          </p>
-          <div className="flex flex-wrap gap-1.5">
-            {eras.map((e) => {
-              const active   = e.id === selectedEraId;
-              const hasData  = !!place.eras[e.id];
-              return (
-                <button
-                  key={e.id}
-                  onClick={() => hasData && onEraChange(e.id)}
-                  disabled={!hasData}
-                  title={e.years}
-                  className={[
-                    "rounded px-2.5 py-1 text-xs font-medium border transition-all duration-150",
-                    active
-                      ? "bg-gold text-ink border-gold"
-                      : hasData
-                      ? "bg-transparent text-parchment/55 border-panel-border hover:border-gold/40 hover:text-parchment"
-                      : "bg-transparent text-parchment/20 border-panel-border/50 cursor-not-allowed",
-                  ].join(" ")}
-                >
-                  {e.label}
-                  <span className="block text-[10px] font-normal opacity-60">{e.years}</span>
-                </button>
-              );
-            })}
+        {/* ── Header (when no cover image) ── */}
+        {!place.coverImage && (
+          <div className="px-5 pt-5 pb-4 border-b border-panel-border flex items-start justify-between gap-3 flex-shrink-0">
+            <div className="min-w-0">
+              <h2 className="text-parchment font-semibold text-xl leading-tight truncate">
+                {place.name}
+              </h2>
+              <p className="text-parchment/45 text-xs mt-1 leading-relaxed">
+                {place.shortDescription}
+              </p>
+            </div>
+            <button
+              onClick={onClose}
+              aria-label="Закрыть"
+              className="flex-shrink-0 mt-0.5 w-7 h-7 flex items-center justify-center rounded-full
+                         text-parchment/40 hover:text-parchment hover:bg-white/10 transition-colors text-lg"
+            >
+              ✕
+            </button>
           </div>
-        </div>
+        )}
 
         {/* ── Description ── */}
         <div className="flex-1 overflow-y-auto px-5 py-4">

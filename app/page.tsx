@@ -55,32 +55,9 @@ export default function Home() {
         </div>
 
         {/* Hint */}
-        <p className="hidden sm:block text-parchment/30 text-xs italic absolute left-1/2 -translate-x-1/2 pointer-events-none">
-          Нажмите на метку, чтобы перенестись во времени
+        <p className="text-parchment/30 text-xs italic pointer-events-none">
+          Нажмите на метку, чтобы узнать историю места
         </p>
-
-        {/* Era selector */}
-        <div className="flex items-center gap-2">
-          <span className="text-parchment/35 text-xs hidden md:inline">Эпоха:</span>
-          <nav className="flex gap-1 rounded border border-panel-border bg-panel-bg/90 p-0.5">
-            {eras.map((e) => (
-              <button
-                key={e.id}
-                onClick={() => setSelectedEraId(e.id)}
-                title={e.years}
-                className={[
-                  "rounded px-2.5 py-1 text-xs font-medium transition-all duration-150",
-                  selectedEraId === e.id
-                    ? "bg-gold text-ink shadow"
-                    : "text-parchment/55 hover:text-parchment hover:bg-white/5",
-                ].join(" ")}
-              >
-                <span className="hidden sm:inline">{e.label}</span>
-                <span className="sm:hidden">{e.years.split("–")[0]}</span>
-              </button>
-            ))}
-          </nav>
-        </div>
       </header>
 
       {/* ════════════════════════════════════════
@@ -107,9 +84,7 @@ export default function Home() {
             <SidePanel
               place={selectedPlace}
               era={era}
-              eras={eras}
               selectedEraId={selectedEraId}
-              onEraChange={setSelectedEraId}
               onClose={() => setSelectedPlace(null)}
               onViewPanorama={() => setPanoramaOpen(true)}
             />
