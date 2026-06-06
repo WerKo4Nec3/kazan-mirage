@@ -1,0 +1,30 @@
+[
+  {
+    "id": "khanate",
+    "label": "Kazan Khanate",
+    "years": "1438–1552",
+    "description": "The golden age of the Kazan Khanate — a successor state of the Golden Horde. The city was a major trading and cultural center connecting East and West.",
+    "mapStyle": "historical"
+  },
+  {
+    "id": "imperial",
+    "label": "Russian Empire",
+    "years": "1552–1917",
+    "description": "After Ivan the Terrible's conquest in 1552, Kazan became a key city of the Russian Empire. Architecture blended Orthodox churches with surviving Tatar mosques.",
+    "mapStyle": "imperial"
+  },
+  {
+    "id": "soviet",
+    "label": "Soviet Era",
+    "years": "1917–1991",
+    "description": "Under Soviet rule, Kazan underwent industrialization. Many historic buildings were repurposed or demolished, while constructivist architecture appeared across the city.",
+    "mapStyle": "soviet"
+  },
+  {
+    "id": "modern",
+    "label": "Modern Kazan",
+    "years": "1991–present",
+    "description": "Today's Kazan is a vibrant bilingual city — capital of Tatarstan. Renovated landmarks, the 2013 Universiade, and a booming cultural scene define the modern era.",
+    "mapStyle": "modern"
+  }
+]

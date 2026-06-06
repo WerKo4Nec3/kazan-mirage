@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(run)",
+      "Skill(run:*)",
+      "Bash(node -e \"console.log\\(require\\('./node_modules/next/package.json'\\).version\\)\")",
+      "Bash(Remove-Item \"C:\\\\Users\\\\Munrait\\\\Claude\\\\Projects\\\\Kazan Mirage\\\\next.config.ts\")",
+      "Bash(npx next *)"
+    ]
+  }
+}
