@@ -1,9 +1,11 @@
 # ✦ Kazan Mirage
 
+[![Live Demo](https://img.shields.io/badge/Live_Demo-kazan--mirage.netlify.app-c9a84c?style=for-the-badge&logo=netlify&logoColor=white)](https://kazan-mirage.netlify.app)
+
 **Interactive historical atlas of Kazan, Russia.**  
 Click a landmark, pick an era, and watch descriptions and 360° panoramas shift across four centuries of history.
 
-> 🔗 **Live demo:** _coming soon_
+> 🔗 **Live demo:** **[kazan-mirage.netlify.app](https://kazan-mirage.netlify.app)**
 
 ---
 
