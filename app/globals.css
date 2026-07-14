@@ -22,22 +22,46 @@ main {
   height: 100%;
 }
 
-/* ── Leaflet overrides ─────────────────────────────────────────────── */
-.leaflet-container {
+/* ── MapLibre overrides ─────────────────────────────────────────────── */
+.maplibregl-map {
   font-family: inherit;
 }
-.leaflet-control-zoom {
-  border: 1px solid rgba(201, 168, 76, 0.3) !important;
-  box-shadow: 0 2px 12px rgba(0,0,0,0.25) !important;
+.maplibregl-ctrl-group {
+  background: #1e1810 !important;
+  border: 1px solid rgba(201,168,76,0.3) !important;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.3) !important;
+  border-radius: 8px !important;
+  overflow: hidden;
 }
-.leaflet-control-zoom a {
+.maplibregl-ctrl-group button {
   background: #1e1810 !important;
   color: #c9a84c !important;
-  border-bottom: 1px solid rgba(201,168,76,0.2) !important;
+  border-bottom: 1px solid rgba(201,168,76,0.15) !important;
 }
-.leaflet-control-zoom a:hover {
+.maplibregl-ctrl-group button:hover {
   background: #2c2416 !important;
-  color: #e8c060 !important;
+}
+.maplibregl-ctrl-group button + button {
+  border-top: 1px solid rgba(201,168,76,0.15) !important;
+}
+.maplibregl-ctrl-icon {
+  filter: invert(72%) sepia(28%) saturate(600%) hue-rotate(5deg) brightness(90%);
+}
+
+/* MapLibre popup shell */
+.kz-maplibre-popup .maplibregl-popup-content {
+  background: #1e1810 !important;
+  border: 1px solid rgba(201,168,76,0.35) !important;
+  border-radius: 6px !important;
+  padding: 0 !important;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.5) !important;
+  color: inherit !important;
+}
+.kz-maplibre-popup .maplibregl-popup-tip {
+  border-top-color: rgba(201,168,76,0.35) !important;
+}
+.kz-maplibre-popup .maplibregl-popup-close-button {
+  display: none !important;
 }
 
 /* ── Custom pin marker ─────────────────────────────────────────────── */
@@ -98,18 +122,7 @@ main {
   filter: blur(2px);
 }
 
-/* ── Tooltip ───────────────────────────────────────────────────────── */
-.kz-tooltip-wrap.leaflet-tooltip {
-  background: #1e1810 !important;
-  border: 1px solid rgba(201,168,76,0.35) !important;
-  border-radius: 6px !important;
-  padding: 0 !important;
-  box-shadow: 0 4px 16px rgba(0,0,0,0.5) !important;
-  color: inherit !important;
-}
-.kz-tooltip-wrap.leaflet-tooltip::before {
-  border-top-color: rgba(201,168,76,0.35) !important;
-}
+/* ── Tooltip content ───────────────────────────────────────────────── */
 
 .kz-tooltip {
   padding: 7px 10px;
@@ -127,6 +140,50 @@ main {
   font-size: 10px;
   color: rgba(245,240,232,0.5);
   white-space: nowrap;
+}
+
+/* ── Restaurant food pin marker ────────────────────────────────────── */
+.kz-food-pin {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: #b84c3e;
+  border: 2px solid rgba(20,15,8,0.85);
+  box-shadow: 0 3px 10px rgba(0,0,0,0.45), 0 1px 3px rgba(0,0,0,0.3);
+  cursor: pointer;
+  transition: background 0.18s, transform 0.18s, box-shadow 0.18s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.kz-food-pin:hover {
+  background: #d05a4a;
+  box-shadow: 0 5px 18px rgba(0,0,0,0.5), 0 2px 6px rgba(184,76,62,0.4);
+}
+
+.kz-food-pin--active {
+  background: #d05a4a;
+  border-color: #fff;
+  box-shadow: 0 5px 20px rgba(184,76,62,0.6), 0 2px 8px rgba(0,0,0,0.5);
+  transform: scale(1.18);
+}
+
+.kz-food-pin__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff8f0;
+  pointer-events: none;
+  user-select: none;
+  width: 18px;
+  height: 18px;
+}
+
+.kz-food-pin__icon svg {
+  width: 18px;
+  height: 18px;
+  display: block;
 }
 
 /* Pannellum container */

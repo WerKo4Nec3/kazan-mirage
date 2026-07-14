@@ -367,14 +367,14 @@ export default function IllustratedMap({ places, selectedPlaceId, onPlaceClick }
           fill="#1a5070" opacity="0.65"
           fontStyle="italic" fontFamily="Georgia, 'Times New Roman', serif"
           letterSpacing="3">
-          Казанка
+          カザンカ川
         </text>
 
         {/* Old Tatar Quarter */}
         <text x="456" y="373" textAnchor="middle" fontSize="10.5"
           fill="#6a3820" opacity="0.7"
           fontFamily="Georgia, 'Times New Roman', serif" letterSpacing="1.5">
-          СТАРОТАТАРСКАЯ СЛОБОДА
+          旧タタール人街
         </text>
 
         {/* Kremlin label */}
@@ -382,28 +382,28 @@ export default function IllustratedMap({ places, selectedPlaceId, onPlaceClick }
           fill="#3a2010" opacity="0.82"
           fontFamily="Georgia, 'Times New Roman', serif"
           fontWeight="bold" letterSpacing="1">
-          КРЕМЛЬ
+          クレムリン
         </text>
 
         {/* Old City */}
         <text x="490" y="222" textAnchor="middle" fontSize="10.5"
           fill="#4a3c20" opacity="0.4"
           fontFamily="Georgia, 'Times New Roman', serif" letterSpacing="2">
-          СТАРЫЙ ГОРОД
+          旧市街
         </text>
 
         {/* Lake Kaban label */}
         <text x="458" y="448" textAnchor="middle" fontSize="9.5"
           fill="#1a4060" opacity="0.7"
           fontFamily="Georgia, 'Times New Roman', serif" fontStyle="italic">
-          Озеро Кабан
+          カバン湖
         </text>
 
         {/* Bauman Street label */}
         <text x="462" y="243" textAnchor="middle" fontSize="9"
           fill="#3a3020" opacity="0.5"
           fontFamily="Georgia, 'Times New Roman', serif" letterSpacing="1.5">
-          ул. Баумана
+          バウマン通り
         </text>
 
         {/* ══════════════════════════════════════════════════
@@ -422,7 +422,7 @@ export default function IllustratedMap({ places, selectedPlaceId, onPlaceClick }
         <text x="799" y="72" textAnchor="middle" fontSize="9.5"
           fill="#4a3c20" opacity="0.75"
           fontFamily="Georgia, 'Times New Roman', serif" letterSpacing="1.5">
-          Историческая карта
+          歴史地図
         </text>
 
         {/* ══════════════════════════════════════════════════

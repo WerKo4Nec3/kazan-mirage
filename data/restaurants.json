@@ -1,0 +1,82 @@
+[
+  {
+    "id": "tugan_ash",
+    "name": "トゥガン・アシュ",
+    "lat": 55.7958,
+    "lng": 49.1078,
+    "address": "バウマン通り 47番地",
+    "dishIds": ["tokmach", "shurpa", "belesh", "chak_chak"]
+  },
+  {
+    "id": "tatar_ile",
+    "name": "タタール・イレ",
+    "lat": 55.7989,
+    "lng": 49.1115,
+    "address": "クレムリョフスカヤ通り 12番地",
+    "dishIds": ["echpochmak", "kyistybyi", "peremyach", "tutyrghan"]
+  },
+  {
+    "id": "kazan_bayram",
+    "name": "カザン・バイラム",
+    "lat": 55.7935,
+    "lng": 49.1098,
+    "address": "ペテルブルクスカヤ通り 5番地",
+    "dishIds": ["shurpa", "umach", "tutyrghan", "echpochmak"]
+  },
+  {
+    "id": "belesh_dom",
+    "name": "ベレシュ・ドム",
+    "lat": 55.7972,
+    "lng": 49.1155,
+    "address": "モスコフスカヤ通り 9番地",
+    "dishIds": ["belesh", "tokmach", "chak_chak", "kyistybyi"]
+  },
+  {
+    "id": "chak_chak_cafe",
+    "name": "チャクチャク・カフェ",
+    "lat": 55.8008,
+    "lng": 49.1063,
+    "address": "シェイクマン通り 7番地",
+    "dishIds": ["chak_chak", "talkysh", "kyistybyi", "peremyach"]
+  },
+  {
+    "id": "miras",
+    "name": "ミラス",
+    "lat": 55.7942,
+    "lng": 49.1132,
+    "address": "タタールスキー横丁 3番地",
+    "dishIds": ["tutyrghan", "peremyach", "echpochmak", "shurpa"]
+  },
+  {
+    "id": "ash_yorty",
+    "name": "アシュ・ヨルティ",
+    "lat": 55.7968,
+    "lng": 49.1042,
+    "address": "プラヴォ・ブラチナヤ通り 14番地",
+    "dishIds": ["tokmach", "umach", "shurpa", "belesh"]
+  },
+  {
+    "id": "tatarstan_rest",
+    "name": "タタールスタン",
+    "lat": 55.7995,
+    "lng": 49.1085,
+    "address": "パリ・コミューン通り 6番地",
+    "dishIds": ["belesh", "tutyrghan", "chak_chak", "tokmach"]
+  },
+  {
+    "id": "kazan_uramy",
+    "name": "カザン・ウラムィ",
+    "lat": 55.7920,
+    "lng": 49.1120,
+    "address": "プロフソユーズナヤ通り 18番地",
+    "dishIds": ["echpochmak", "peremyach", "kyistybyi", "umach"]
+  },
+  {
+    "id": "altyn_chasha",
+    "name": "アルティン・チャーシャ",
+    "lat": 55.8015,
+    "lng": 49.1140,
+    "address": "ゴーリキー通り 22番地",
+    "dishIds": ["chak_chak", "talkysh", "belesh", "tokmach"]
+  }
+]

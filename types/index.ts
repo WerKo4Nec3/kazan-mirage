@@ -20,3 +20,24 @@ export interface Era {
   description: string;
   mapStyle: string;
 }
+
+export interface Restaurant {
+  id: string;
+  name: string;
+  lat: number;
+  lng: number;
+  address: string;
+  dishIds: string[];
+}
+
+export interface Dish {
+  id: string;
+  name: string;
+  category: string;
+  emoji: string;
+  shortDescription: string;
+  description: string;
+  ingredients: string[];
+  coverImage?: string;
+  gallery?: string[];
+}

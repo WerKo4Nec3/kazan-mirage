@@ -1,0 +1,152 @@
+[
+  {
+    "id": "tokmach",
+    "name": "トクマチ",
+    "category": "スープ",
+    "emoji": "🍜",
+    "shortDescription": "鴨と濃厚なスープで作る自家製麺料理",
+    "description": "トクマチはタタール料理の魂ともいえる一品です。麺は手作業で伸ばし、細い帯状に切り分けて、自家製の鴨や鶏から取った黄金色のスープに加えます。弱火で少なくとも3時間煮込むのが基本。タタールの祖母たちは皆、生地のレシピを家族の秘密として大切に受け継いでいます。",
+    "ingredients": ["自家製麺", "鴨または鶏肉", "玉ねぎ", "にんじん", "ローリエ", "黒こしょう", "塩"],
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Tokmach_%282024-04-22%29.jpg/960px-Tokmach_%282024-04-22%29.jpg",
+    "gallery": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Tokmach_%282024-04-22%29.jpg/960px-Tokmach_%282024-04-22%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Soba_noodle_with_duck_soup_%2827129655694%29.jpg/960px-Soba_noodle_with_duck_soup_%2827129655694%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Yellow_noodle_soup_with_duck_at_Urai_Roasted_Duck%2C_Nawamin_Road_%288636850619%29.jpg/960px-Yellow_noodle_soup_with_duck_at_Urai_Roasted_Duck%2C_Nawamin_Road_%288636850619%29.jpg"
+    ]
+  },
+  {
+    "id": "shurpa",
+    "name": "シュルパ",
+    "category": "スープ",
+    "emoji": "🥘",
+    "shortDescription": "野菜たっぷりの濃厚な羊肉スープ",
+    "description": "シュルパは、じゃがいも、にんじん、玉ねぎとともに煮込んだ濃厚な羊肉のスープです。羊肉は鍋(カザン)に入れて8時間弱火でじっくり煮込まれ、スープは琥珀色の深い味わいに仕上がります。盛り付けの際にはたっぷりの肉を添え、新鮮なハーブを散らします。",
+    "ingredients": ["骨付き羊肉", "じゃがいも", "にんじん", "玉ねぎ", "トマト", "パプリカ", "にんにく", "コリアンダー"],
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/0/06/%D0%9A%D1%83%D0%BB%D0%BB%D0%B0%D0%BC%D0%B0.jpg",
+    "gallery": [
+      "https://upload.wikimedia.org/wikipedia/commons/0/06/%D0%9A%D1%83%D0%BB%D0%BB%D0%B0%D0%BC%D0%B0.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/c/c2/Shulpa.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/%D0%A1%D0%B0%D0%BC%D0%B0%D1%80%D0%BA%D0%B0%D0%BD%D0%B4%2C_%D1%81%D0%BE%D1%80%D0%BF%D0%B0_%D0%B2_%D1%83%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%D0%BC_%D0%BA%D0%B0%D1%84%D0%B5.jpg/960px-%D0%A1%D0%B0%D0%BC%D0%B0%D1%80%D0%BA%D0%B0%D0%BD%D0%B4%2C_%D1%81%D0%BE%D1%80%D0%BF%D0%B0_%D0%B2_%D1%83%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%D0%BC_%D0%BA%D0%B0%D1%84%D0%B5.jpg"
+    ]
+  },
+  {
+    "id": "umach",
+    "name": "ウマチ",
+    "category": "スープ",
+    "emoji": "🫕",
+    "shortDescription": "小麦粉の小さなすいとんが入った素朴なスープ",
+    "description": "ウマチは、小麦の生地から作る小さなすいとんが入った、由緒あるタタールのスープです。生地を両手のひらでこすり合わせて煮立つスープに落とすと、小さな粒——ウマチ——が出来上がります。とろみのある、心まで温まる一皿です。タタール料理の中でもっとも素朴で誠実な料理とされています。",
+    "ingredients": ["小麦粉", "卵", "牛肉のだし汁", "玉ねぎ", "バター", "塩"],
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Spring_soup_dumpling_noodles_%28%E9%99%BD%E6%98%A5%E6%B9%AF%E9%A4%83%E9%BA%B5%29.jpg/960px-Spring_soup_dumpling_noodles_%28%E9%99%BD%E6%98%A5%E6%B9%AF%E9%A4%83%E9%BA%B5%29.jpg",
+    "gallery": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Spring_soup_dumpling_noodles_%28%E9%99%BD%E6%98%A5%E6%B9%AF%E9%A4%83%E9%BA%B5%29.jpg/960px-Spring_soup_dumpling_noodles_%28%E9%99%BD%E6%98%A5%E6%B9%AF%E9%A4%83%E9%BA%B5%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Chinese_noodles_soup_in_Yuen_Long.jpg/960px-Chinese_noodles_soup_in_Yuen_Long.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/c/c2/Shulpa.jpg"
+    ]
+  },
+  {
+    "id": "echpochmak",
+    "name": "エチポチマク",
+    "category": "ペストリー",
+    "emoji": "🔺",
+    "shortDescription": "羊肉とじゃがいもを包んだ三角形のパイ",
+    "description": "「エチポチマク」とは「三つの角」という意味。タタールの焼き菓子を象徴するもっとも有名な料理で、生の羊肉、じゃがいも、玉ねぎを詰めた三角形のパイです。上部に小さな穴を開けて焼き上げ、その穴から焼成中に熱いスープを注ぎ入れます。外側はカリッと香ばしく、中はジューシーに仕上がります。",
+    "ingredients": ["イースト生地", "羊肉", "じゃがいも", "玉ねぎ", "バター", "だし汁", "塩", "こしょう"],
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Ochpochmak_%282024-04-22%29.jpg/960px-Ochpochmak_%282024-04-22%29.jpg",
+    "gallery": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Ochpochmak_%282024-04-22%29.jpg/960px-Ochpochmak_%282024-04-22%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/1/18/Echpochmak-wiki.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Echpochmak2.jpg/960px-Echpochmak2.jpg"
+    ]
+  },
+  {
+    "id": "belesh",
+    "name": "ベレシュ",
+    "category": "ペストリー",
+    "emoji": "🥧",
+    "shortDescription": "鴨肉と米を詰めた大きな丸いパイ",
+    "description": "ベレシュは、結婚式やサバントゥイ祭、大きな祝宴のために作られる晴れの日の料理です。直径40〜50センチもある巨大な丸いパイに鴨肉と米の詰め物を入れ、薪窯で2〜3時間かけて焼き上げます。まず「ふた」の部分を切り取って別に味わい、それから中の詰め物をすくっていただきます。",
+    "ingredients": ["練り生地", "鴨肉またはガチョウ肉", "米", "玉ねぎ", "バター", "だし汁", "塩", "こしょう"],
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/%D0%97%D1%83%D1%80_%D0%B1%D3%99%D0%BB%D0%B5%D1%88.jpg/960px-%D0%97%D1%83%D1%80_%D0%B1%D3%99%D0%BB%D0%B5%D1%88.jpg",
+    "gallery": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/%D0%97%D1%83%D1%80_%D0%B1%D3%99%D0%BB%D0%B5%D1%88.jpg/960px-%D0%97%D1%83%D1%80_%D0%B1%D3%99%D0%BB%D0%B5%D1%88.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/It_baleshe_%282024-04-22%29_01.jpg/960px-It_baleshe_%282024-04-22%29_01.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/%D0%9A%D0%B0%D1%80%D1%82%D1%83%D1%84%D0%BB%D1%8B-%D0%B8%D1%82%D0%BB%D0%B5_%D0%B1%D3%99%D0%BB%D0%B5%D1%88.jpg/960px-%D0%9A%D0%B0%D1%80%D1%82%D1%83%D1%84%D0%BB%D1%8B-%D0%B8%D1%82%D0%BB%D0%B5_%D0%B1%D3%99%D0%BB%D0%B5%D1%88.jpg"
+    ]
+  },
+  {
+    "id": "peremyach",
+    "name": "ペレミャチ",
+    "category": "ペストリー",
+    "emoji": "🫓",
+    "shortDescription": "牛肉を詰めた、上部が開いた揚げ菓子パン",
+    "description": "ペレミャチはタタールの街角で愛されているファストフードです。イースト生地を黄金色になるまで油で揚げ、上部に小さな穴を開けて、ジューシーな肉の詰め物がのぞくように仕上げます。熱々のうちに、お茶やケフィアを添えていただきます。",
+    "ingredients": ["イースト生地", "牛ひき肉", "玉ねぎ", "塩", "こしょう", "揚げ油"],
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/3/31/P%C3%A4r%C3%A4m%C3%A4%C3%A7_-_Tampere%2C_Finland.jpg",
+    "gallery": [
+      "https://upload.wikimedia.org/wikipedia/commons/3/31/P%C3%A4r%C3%A4m%C3%A4%C3%A7_-_Tampere%2C_Finland.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Eremche_paramache_%282024-04-22%29.jpg/960px-Eremche_paramache_%282024-04-22%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Barange_paramache_%282024-04-22%29.jpg/960px-Barange_paramache_%282024-04-22%29.jpg"
+    ]
+  },
+  {
+    "id": "kyistybyi",
+    "name": "クスティビー",
+    "category": "ペストリー",
+    "emoji": "🫔",
+    "shortDescription": "マッシュポテトや粟がゆを包んだ薄焼きパン",
+    "description": "クスティビーは、手早く作れる日常のひと品です。種なしの薄い生地を乾いたフライパンで焦げ目がつくまで焼き、マッシュポテトや粟がゆの詰め物をのせて二つ折りにします。サワークリームやバターを添えて熱いうちにどうぞ。旅のお供にもなる、タタール風「サンドイッチ」です。",
+    "ingredients": ["小麦粉", "水", "塩", "じゃがいも", "牛乳", "バター", "玉ねぎ"],
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/7/78/Qistibi.jpg",
+    "gallery": [
+      "https://upload.wikimedia.org/wikipedia/commons/7/78/Qistibi.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Barange_kystybye_%282024-04-22%29.jpg/960px-Barange_kystybye_%282024-04-22%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Kistibij.jpg/960px-Kistibij.jpg"
+    ]
+  },
+  {
+    "id": "chak_chak",
+    "name": "チャクチャク",
+    "category": "スイーツ",
+    "emoji": "🍯",
+    "shortDescription": "蜂蜜にひたしたサクサク生地のスイーツ",
+    "description": "チャクチャクはタタールを代表するデザートであり、もてなしの心の象徴です。細く切った生地を油で揚げ、熱い蜂蜜と砂糖のシロップにくぐらせてから、ピラミッド状に押し固めます。冷えると、黄金色でサクサクとした塊に仕上がります。タタールの結婚式では、花嫁の家族がこのチャクチャクを持参するのが習わしです。",
+    "ingredients": ["小麦粉", "卵", "砂糖", "天然蜂蜜", "植物油"],
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Chak-chak_%282024-04-22%29.jpg/960px-Chak-chak_%282024-04-22%29.jpg",
+    "gallery": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Chak-chak_%282024-04-22%29.jpg/960px-Chak-chak_%282024-04-22%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Chak-chak01.jpg/960px-Chak-chak01.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/%D0%A7%D0%B0%D0%BA-%D1%87%D0%B0%D0%BA_%281%29.jpg/960px-%D0%A7%D0%B0%D0%BA-%D1%87%D0%B0%D0%BA_%281%29.jpg"
+    ]
+  },
+  {
+    "id": "talkysh",
+    "name": "タルクシュ・カレヴェ",
+    "category": "スイーツ",
+    "emoji": "🍬",
+    "shortDescription": "口の中でとろける、カラメルと小麦粉の繊維菓子——タタール風ハルヴァ",
+    "description": "タルクシュ・カレヴェは、製法がほとんど失われてしまった、極めて希少なタタールのデザートです。砂糖と蜂蜜を一定の温度まで煮詰め、それを何度も伸ばして極細の繊維にしていきます。出来上がるのは、口に入れた瞬間にふわりと溶ける軽やかな食感——ハルヴァと綿菓子の中間のような味わいです。",
+    "ingredients": ["蜂蜜", "砂糖", "バター", "小麦粉", "水"],
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Talkysh_kalava_%282024-04-22%29_01.jpg/960px-Talkysh_kalava_%282024-04-22%29_01.jpg",
+    "gallery": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Talkysh_kalava_%282024-04-22%29_01.jpg/960px-Talkysh_kalava_%282024-04-22%29_01.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Talkysh_kalava_%282024-04-22%29_02.jpg/960px-Talkysh_kalava_%282024-04-22%29_02.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/F%C4%B1st%C4%B1kl%C4%B1_Baklava.jpg/960px-F%C4%B1st%C4%B1kl%C4%B1_Baklava.jpg"
+    ]
+  },
+  {
+    "id": "tutyrghan",
+    "name": "トゥトゥルガン・タヴィク",
+    "category": "メイン料理",
+    "emoji": "🍗",
+    "shortDescription": "卵と玉ねぎを詰めて丸ごと焼き上げた鶏肉料理",
+    "description": "トゥトゥルガン・タヴィク——「詰め物をした鶏」——は、タタールの農村に伝わるお祝いの料理です。卵、バター、玉ねぎを混ぜた詰め物を鶏に入れて縫い合わせ、オーブンやロシア式のかまどで焼き上げます。皮は黄金色でパリッと香ばしく、中の詰め物はふんわりとした卵のスフレのように仕上がります。",
+    "ingredients": ["丸鶏", "卵", "牛乳", "バター", "玉ねぎ", "塩", "こしょう", "ローリエ"],
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/8/82/%D0%A2%D1%83%D1%82%D1%8B%D1%80%D0%B3%D0%B0%D0%BD_%D0%BA%D1%83%D1%80%D0%BA%D0%B0.jpg",
+    "gallery": [
+      "https://upload.wikimedia.org/wikipedia/commons/8/82/%D0%A2%D1%83%D1%82%D1%8B%D1%80%D0%B3%D0%B0%D0%BD_%D0%BA%D1%83%D1%80%D0%BA%D0%B0.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/1/1d/%D0%A2%D0%B0%D0%B2%D1%8B%D0%BA.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/a/a6/%D0%A2%D1%83%D1%82%D1%8B%D1%80%D0%B3%D0%B0%D0%BD_%D0%BA%D0%B0%D0%B7.jpg"
+    ]
+  }
+]

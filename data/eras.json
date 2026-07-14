@@ -1,30 +1,30 @@
 [
   {
     "id": "khanate",
-    "label": "Kazan Khanate",
+    "label": "カザン・ハン国",
     "years": "1438–1552",
-    "description": "The golden age of the Kazan Khanate — a successor state of the Golden Horde. The city was a major trading and cultural center connecting East and West.",
+    "description": "ジョチ・ウルス(キプチャク・ハン国)の後継国家として栄えた、カザン・ハン国の黄金時代。この街は東西を結ぶ重要な交易と文化の中心地でした。",
     "mapStyle": "historical"
   },
   {
     "id": "imperial",
-    "label": "Russian Empire",
+    "label": "ロシア帝国",
     "years": "1552–1917",
-    "description": "After Ivan the Terrible's conquest in 1552, Kazan became a key city of the Russian Empire. Architecture blended Orthodox churches with surviving Tatar mosques.",
+    "description": "1552年、イヴァン雷帝による征服を受けた後、カザンはロシア帝国の要衝となりました。建築様式は、正教会の教会と生き残ったタタールのモスクとが入り混じったものになりました。",
     "mapStyle": "imperial"
   },
   {
     "id": "soviet",
-    "label": "Soviet Era",
+    "label": "ソビエト時代",
     "years": "1917–1991",
-    "description": "Under Soviet rule, Kazan underwent industrialization. Many historic buildings were repurposed or demolished, while constructivist architecture appeared across the city.",
+    "description": "ソビエト政権下でカザンは工業化を遂げました。多くの歴史的建造物が転用されたり取り壊されたりする一方、街にはコンストラクティビズム建築が次々と現れました。",
     "mapStyle": "soviet"
   },
   {
     "id": "modern",
-    "label": "Modern Kazan",
+    "label": "現代のカザン",
     "years": "1991–present",
-    "description": "Today's Kazan is a vibrant bilingual city — capital of Tatarstan. Renovated landmarks, the 2013 Universiade, and a booming cultural scene define the modern era.",
+    "description": "今日のカザンは、タタールスタン共和国の首都であり、活気あふれるバイリンガル都市です。修復された名所の数々、2013年のユニバーシアード、盛り上がりを見せる文化シーンが、この現代という時代を特徴づけています。",
     "mapStyle": "modern"
   }
 ]
